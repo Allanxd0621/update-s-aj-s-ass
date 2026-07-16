@@ -1,0 +1,26 @@
+/* 
+for our css we will make this universal enough to be used for our create account page as well for our log in page.
+*/
+body{
+    margin: 0;
+}
+
+.body{
+
+display: flex;
+flex-direction: column;
+height: 100dvh;
+width: 100%;
+justify-content: center;
+align-items: center;
+
+}
+
+form{
+
+display: flex;
+flex-direction: column;
+background-color: antiquewhite;
+padding: 5rem;
+border-radius: 12px;
+}
